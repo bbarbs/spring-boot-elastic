@@ -7,19 +7,19 @@ Sample spring boot project with elasticsearch implementation you can check it [h
 * After running the elasticsearch check the http://localhost:9200/ to know if it is running. Sample response is shown below.
 ```
 {
-"name": "trbTH4P",
-"cluster_name": "elasticsearch",
-"cluster_uuid": "eZD4rzQrTryJZWS1NMMxAA",
-"version": {
-"number": "6.2.2",
-"build_hash": "10b1edd",
-"build_date": "2018-02-16T19:01:30.685723Z",
-"build_snapshot": false,
-"lucene_version": "7.2.1",
-"minimum_wire_compatibility_version": "5.6.0",
-"minimum_index_compatibility_version": "5.0.0"
-},
-"tagline": "You Know, for Search"
+  "name": "trbTH4P",
+  "cluster_name": "elasticsearch",
+  "cluster_uuid": "eZD4rzQrTryJZWS1NMMxAA",
+  "version": {
+      "number": "6.2.2",
+      "build_hash": "10b1edd",
+      "build_date": "2018-02-16T19:01:30.685723Z",
+      "build_snapshot": false,
+      "lucene_version": "7.2.1",
+      "minimum_wire_compatibility_version": "5.6.0",
+      "minimum_index_compatibility_version": "5.0.0"
+  },
+  "tagline": "You Know, for Search"
 }
 ```
 
@@ -42,7 +42,7 @@ Sample elastic configuration, it uses the port 9300.
     }
 ```
 ## Testing
-Before running the application make sure to run the elasticsearch first. You could use other tools like POSTMAN to make a custom query to elasticsearch using their rest api.
+Before running the application make sure to run the elasticsearch first. You could use other tools like POSTMAN to make query using elastic QUERY DSL https://www.elastic.co/guide/en/elasticsearch/reference/5.5/_introducing_the_query_language.html.
 
 ## Swagger
 Aside from POSTMAN added also a swagger to perform CRUD operation easily. http://localhost:8080/swagger-ui.html
