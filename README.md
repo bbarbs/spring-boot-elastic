@@ -24,7 +24,7 @@ Sample spring boot project with elasticsearch implementation you can check it [h
 ```
 
 ## Configuration
-Sample elastic configuration, it uses the port 9300.
+Sample elastic configuration, it uses the port 9300. It uses also transport client instead of node see more: https://www.elastic.co/guide/en/elasticsearch/guide/current/_transport_client_versus_node_client.html
 ```
   @Bean
     public Client client() throws UnknownHostException {
