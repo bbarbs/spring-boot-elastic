@@ -41,4 +41,5 @@ Sample elastic configuration, it uses the port 9300.
         return new ElasticsearchTemplate(client());
     }
 ```
-
+## Testing
+Before running the application make sure to run the elasticsearch first.
