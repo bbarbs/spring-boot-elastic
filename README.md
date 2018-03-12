@@ -42,4 +42,4 @@ Sample elastic configuration, it uses the port 9300.
     }
 ```
 ## Testing
-Before running the application make sure to run the elasticsearch first.
+Before running the application make sure to run the elasticsearch first. You could use other tools like POSTMAN to make a custom query to elasticsearch using their rest api.
