@@ -43,3 +43,6 @@ Sample elastic configuration, it uses the port 9300.
 ```
 ## Testing
 Before running the application make sure to run the elasticsearch first. You could use other tools like POSTMAN to make a custom query to elasticsearch using their rest api.
+
+## Swagger
+Aside from POSTMAN added also a swagger to perform CRUD operation easily. http://localhost:8080/swagger-ui.html
